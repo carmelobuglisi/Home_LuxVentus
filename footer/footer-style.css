@@ -1,0 +1,47 @@
+*{
+  font-family: Poppins, sans-serif;
+}
+#footer-container {
+  width: 1440px;
+  height: 308px;
+}
+#footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer-logo {
+  width: 220px;
+  height: 36px;
+  margin-left: 84px;
+}
+#footer-content h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  color: #262626;
+}
+#socials {
+  display: flex;
+  flex-direction: row;
+  margin-right: 84px;
+  gap: 20px;
+}
+#socials img {
+  width: 32px;
+  height: 31px;
+  margin-top: 23px;
+}
+#last-section img {
+  width: 1267px;
+  border: 1px;
+  margin-left: 86px;
+}
+#last-section p {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 86px;
+  color: #262626;
+}
