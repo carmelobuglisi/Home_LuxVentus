@@ -16,46 +16,93 @@ body {
 
 main {
     max-width: 1440px;
-
+    background-color: #F9F9F9;
 }
 
-/* ** Hero section ** */
+/* ########## Hero section ########## */
 .hero_section {
     background-color: #8BA9F4;
-
+    width: 1270px;
+    height: 560px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.hero_headings {
+    padding: 220px;
+    padding-left: 55px;
+}
+.hero_headings p:first-child {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.hero_headings h1 {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 69px;
+    margin-bottom: 20px;
+}
+.hero_headings h1 span {
+    font-weight: 700;
+}
+.hero_headings p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-/* ** Topics section ** */
+/* ########## Topics section ########## */
 .topics_section {
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
     /* Section title - h3 */
 .section_title {
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
-
     color: #262626;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
     /* Mini cards */
 .mini_topic_cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
+    display: grid;
+    grid-template-columns: repeat(6, 16.66%);
+    grid-template-rows: 1;
     gap: 10px;
+    margin-bottom: 90px;
 }
     /* Single card */
 .mini_card {
-
+    border-radius: 20px;
+    min-height: 290px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 6px rgb(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .mini_card_title {
-
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .mini_card_button {
-
+    width: 145px;
+    height: 36px;
+    border-radius: 40px;
+    border: none;
+    background-color: #4CE0D7;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
 }
 
 .divider_line {
@@ -72,8 +119,6 @@ main {
     height: 700px;
 
     border-radius: 20px;
-
-
 }
 
 
